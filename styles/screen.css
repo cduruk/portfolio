@@ -1,0 +1,124 @@
+/*Make the new HTML5 tags work with FF*/
+header, nav, section, article, footer{
+	display:block;
+}
+
+header{
+	padding: 30px 0px 0px 40px;
+	height: 40px;
+	background-color: #3D699F;
+	border-bottom: 4px solid #29476C;
+}
+
+p, h1, h2, h3, h4, h5, h6, a{
+	font-family: "Myriad Pro","Trebuchet MS",Arial, sans-serif;
+}
+
+header h1{
+	color: #FFF;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	text-shadow: 1px 1px 1px #000;
+}
+
+nav{
+	padding-left: 40px;
+	padding-top: 20px;
+}
+
+nav a{
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+nav a, nav:visited{
+	text-decoration: none;
+	color:#29476C;
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+
+nav ul{
+	list-style: none:
+}
+
+nav li{
+	display: inline;
+	padding:4px;
+	margin-right:20px;
+	
+	/* Do not move across pages*/
+	border:2px solid #FFF;
+	background-color:#FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	/* End of not button movement hack */
+}
+
+.talk{
+	font-style:italic;
+}
+
+nav li.active{
+	border:2px solid #A1C2EB;
+	background-color:#A1C2EB;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+nav li.active a{
+	text-decoration: underline;
+}
+
+#index article{
+	margin-top: 10px;
+	padding-top: 70px;
+	padding-bottom: 40px;
+	margin:0 auto;
+	width: 600px;
+}
+
+#index article section{
+	float:left;
+	width:350px;
+	padding-right:40px;
+	padding-left:10px;
+	border-left:4px solid #3D699F;
+}
+
+#index article aside{
+	float:left;
+	padding-left:10px;
+	width:48px;
+	border-left:2px solid #3D699F;
+}
+
+#index article section p{
+	padding-bottom:20px;
+	font-size: 1.25em;
+}
+
+#index article section p:last-child{
+	padding-bottom:0px;
+}
+
+#index article aside{
+	flaot:left;
+}
+
+footer{
+	clear:both;
+	padding-top:90px;;
+	text-align:center;
+}
+
+footer p{
+	margin:0 auto;
+	font-size:0.875em;
+}
