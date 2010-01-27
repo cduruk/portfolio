@@ -11,14 +11,16 @@ header{
 }
 
 p.huge{
-	font-size:1.25em;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:0.875em;
 }
 
 a.small{
 	font-style:italic;
 }
 
-.no_border{
+.small_desc{
 	padding-left:5px;
 	margin-left:30px;
 	border-left:0px;
@@ -104,37 +106,47 @@ nav li.active a{
 	margin-top: 10px;
 	padding-top: 70px;
 	margin:0 auto;
-	margin-bottom: 40px;
-	width: 600px;
+	width: 650px;
+	margin-bottom:50px;
 }
 
 #index article section{
 	float:left;
 	width:350px;
 	padding-right:40px;
-	padding-left:10px;
+}
+
+#index article section p{
 	border-left:4px solid #3D699F;
+	padding-left:10px;
+	font-size: 1.25em;
+	padding-bottom:20px;
+}
+
+#index article section p.last{
+	padding-bottom:0px;
+	margin-bottom:30px;
+}
+
+#index article section p.no_border{
+	border-style:none;
 }
 
 #index article aside{
 	float:left;
-	padding-left:10px;
-	width:180px;
+	padding-left:5px;
+	width:200px;
+	border-left:2px solid #3D699F;
+	margin-bottom:40px;
 }
 
 #index article aside p{
 	padding-left:5px;
-	border-left:2px solid #3D699F;
+	margin-bottom:5px;
+}
+
+#index article aside p.resume{
 	margin-bottom:20px;
-}
-
-#index article section p{
-	padding-bottom:20px;
-	font-size: 1.25em;
-}
-
-#index article section p:last-child{
-	padding-bottom:0px;
 }
 
 #index article aside{
