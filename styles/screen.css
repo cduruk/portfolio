@@ -20,10 +20,28 @@ a.small{
 	font-style:italic;
 }
 
+.tags{
+	white-space: nowrap;
+	width: 500px;
+}
+
 .small_desc{
 	padding-left:5px;
 	margin-left:30px;
 	border-left:0px;
+}
+
+span.tag{
+	border:1px solid #29476C;
+	color:#29476C;
+	font-size:0.95em;
+	padding: 1px 3px;
+	font-family: monospace;
+	margin-right:5px;
+	margin-top:5px;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;	
 }
 
 p, h1, h2, h3, h4, h5, h6, a{
@@ -146,7 +164,7 @@ img{
 #class article section p{
 	padding-left:10px;
 	font-size:1em;
-	padding-bottom:20px;
+	padding-bottom:10px;
 }
 
 #index article section p.last, #class article section p.last{
