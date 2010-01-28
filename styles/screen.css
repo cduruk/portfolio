@@ -52,6 +52,7 @@ header h1{
 nav{
 	padding-left: 40px;
 	padding-top: 20px;
+	padding-bottom: 70px;
 }
 
 nav a{
@@ -101,48 +102,66 @@ nav li.active{
 nav li.active a{
 	text-decoration: underline;
 }
+/*
+img{
+	float:left;
+	display:block;
+	margin-right:10px;
+	margin-left: 10px;
+	border: 3px solid #3D699F;
+}*/
 
-#index article{
-	margin-top: 10px;
-	padding-top: 70px;
+#index article, #class article{
 	margin:0 auto;
 	width: 650px;
-	margin-bottom:50px;
+	margin-bottom: 140px;
 }
 
-#index article section{
+#class article{
+	width:800px;
+}
+
+#index article section, #class article section{
 	float:left;
 	width:350px;
 	padding-right:40px;
+	border-left:4px solid #3D699F;
 }
 
-#index article section p{
-	border-left:4px solid #3D699F;
+#class article section{
+	width: 500px;
+}
+
+#index article section p {
 	padding-left:10px;
-	font-size: 1.25em;
+	font-size: 1.125em;
 	padding-bottom:20px;
 }
 
-#index article section p.last{
+#class article section p{
+	padding-left:10px;
+	font-size:1em;
+	padding-bottom:20px;
+}
+
+#index article section p.last, #class article section p.last{
 	padding-bottom:0px;
-	margin-bottom:30px;
 }
 
-#index article section p.no_border{
-	border-style:none;
-}
-
-#index article aside{
+#index article aside, #class article aside{
 	float:left;
 	padding-left:5px;
 	width:200px;
 	border-left:2px solid #3D699F;
-	margin-bottom:40px;
+	margin-bottom:30px;
 }
 
 #index article aside p{
-	padding-left:5px;
-	margin-bottom:5px;
+	margin-bottom:3px;
+}
+
+#index article aside p.last{
+	margin-bottom:0px;
 }
 
 #index article aside p.resume{
