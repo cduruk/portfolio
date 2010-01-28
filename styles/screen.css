@@ -3,6 +3,10 @@ header, nav, section, article, footer{
 	display:block;
 }
 
+body{
+	width:950px;
+}
+
 header{
 	padding: 30px 0px 0px 40px;
 	height: 40px;
@@ -22,7 +26,6 @@ a.small{
 
 .tags{
 	white-space: nowrap;
-	width: 500px;
 }
 
 .small_desc{
@@ -34,9 +37,9 @@ a.small{
 span.tag{
 	border:1px solid #29476C;
 	color:#29476C;
-	font-size:0.95em;
-	padding: 1px 3px;
-	font-family: monospace;
+	font-size:0.75em;
+	padding: 2px 3px;
+/*	font-family: monospace;*/
 	margin-right:5px;
 	margin-top:5px;
 	border-radius: 7px;
