@@ -111,14 +111,15 @@ img{
 	border: 3px solid #3D699F;
 }*/
 
-#index article, #class article{
-	margin:0 auto;
-	width: 650px;
-	margin-bottom: 140px;
+#index article{
+	margin-left:150px;
+	margin-bottom: 200px;
+	width:800px;
 }
 
 #class article{
-	width:800px;
+	margin-left:150px;
+	margin-bottom:40px;
 }
 
 #index article section, #class article section{
@@ -126,6 +127,10 @@ img{
 	width:350px;
 	padding-right:40px;
 	border-left:4px solid #3D699F;
+}
+
+#index article section.last, #class article section.last{
+	margin-bottom:50px;
 }
 
 #class article section{
