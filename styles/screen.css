@@ -10,6 +10,11 @@ header{
 	border-bottom: 4px solid #29476C;
 }
 
+header a, header a:visited, header a:hover, header a:active{
+	text-decoration:none;
+	color:#FFF;
+}
+
 article{
 	width:780px;
 }
