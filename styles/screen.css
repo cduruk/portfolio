@@ -138,14 +138,15 @@ img{
 }*/
 
 #index article{
-	margin-left:150px;
+	margin-left:130px;
 	margin-bottom: 200px;
 	width:800px;
 }
 
 #class article{
-	margin-left:150px;
+	margin-left:130px;
 	margin-bottom:40px;
+	width:800px;
 }
 
 #index article section, #class article section{
