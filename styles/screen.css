@@ -41,7 +41,7 @@ a.small{
 
 span.tag{
 	border:1px solid #4988D6;
-	color:#29476C;
+	color:#215DA6;
 	font-size:0.75em;
 	padding: 3px 4px 2px 4px;
 /*	font-family: monospace;*/
@@ -59,7 +59,7 @@ p, h1, h2, h3, h4, h5, h6, a{
 
 a, a:visited{
 	text-decoration: none;
-	color:#2A507D;
+	color:#215DA6;
 }
 
 a:hover{
@@ -88,7 +88,7 @@ nav a{
 
 nav a, nav:visited{
 	text-decoration: none;
-	color:#29476C;
+	color:#183252;
 }
 
 nav a:hover{
@@ -118,8 +118,8 @@ nav li{
 }
 
 nav li.active{
-	border:2px solid #A1C2EB;
-	background-color:#A1C2EB;
+	border:2px solid #86B3EB;
+	background-color:#86B3EB;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
