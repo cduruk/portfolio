@@ -6,7 +6,7 @@ header, nav, section, article, footer{
 header{
 	padding: 30px 0px 0px 40px;
 	height: 40px;
-	background-color: #4988D6;
+	background-color: #4480C9;
 	border-bottom: 4px solid #1E3756;
 }
 
@@ -40,8 +40,8 @@ a.small{
 }
 
 span.tag{
-	border:1px solid #4988D6;
-	color:#215DA6;
+	border:1px solid #4480C9;
+	color:#28548A;
 	font-size:0.75em;
 	padding: 3px 4px 2px 4px;
 /*	font-family: monospace;*/
@@ -152,7 +152,7 @@ img{
 	float:left;
 	width:350px;
 	padding-right:40px;
-	border-left:4px solid #4988D6;
+	border-left:4px solid #4480C9;
 }
 
 #index article section.last, #class article section.last{
@@ -183,7 +183,7 @@ img{
 	float:left;
 	padding-left:5px;
 	width:200px;
-	border-left:2px solid #4988D6;
+	border-left:2px solid #4480C9;
 	margin-bottom:30px;
 }
 
