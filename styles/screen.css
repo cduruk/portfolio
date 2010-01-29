@@ -6,8 +6,8 @@ header, nav, section, article, footer{
 header{
 	padding: 30px 0px 0px 40px;
 	height: 40px;
-	background-color: #3D699F;
-	border-bottom: 4px solid #29476C;
+	background-color: #4988D6;
+	border-bottom: 4px solid #1E3756;
 }
 
 header a, header a:visited, header a:hover, header a:active{
@@ -40,7 +40,7 @@ a.small{
 }
 
 span.tag{
-	border:1px solid #3D699F;
+	border:1px solid #4988D6;
 	color:#29476C;
 	font-size:0.75em;
 	padding: 3px 4px 2px 4px;
@@ -59,7 +59,7 @@ p, h1, h2, h3, h4, h5, h6, a{
 
 a, a:visited{
 	text-decoration: none;
-	color:#29476C;
+	color:#2A507D;
 }
 
 a:hover{
@@ -152,7 +152,7 @@ img{
 	float:left;
 	width:350px;
 	padding-right:40px;
-	border-left:4px solid #3D699F;
+	border-left:4px solid #4988D6;
 }
 
 #index article section.last, #class article section.last{
@@ -183,7 +183,7 @@ img{
 	float:left;
 	padding-left:5px;
 	width:200px;
-	border-left:2px solid #3D699F;
+	border-left:2px solid #4988D6;
 	margin-bottom:30px;
 }
 
