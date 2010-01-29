@@ -182,11 +182,11 @@ img{
 	margin-bottom:30px;
 }
 
-#index article aside p{
-	margin-bottom:3px;
+#index article aside p, #class article aside p{
+	margin-bottom:4px;
 }
 
-#index article aside p.last{
+#index article aside p.last, #class article aside p.last{
 	margin-bottom:0px;
 }
 
