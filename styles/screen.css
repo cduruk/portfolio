@@ -86,7 +86,7 @@ nav a{
 	font-size: 1em;
 }
 
-nav a, nav:visited{
+nav a, nav a:visited{
 	text-decoration: none;
 	color:#183252;
 }
