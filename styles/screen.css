@@ -119,10 +119,10 @@ nav li.active{
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 }
-
+/*
 nav li.active a{
 	text-decoration: underline;
-}
+}*/
 /*
 img{
 	float:left;
@@ -200,8 +200,16 @@ img{
 
 footer{
 	clear:both;
-	padding-top:90px;;
+	padding-bottom:10px;
 	text-align:center;
+}
+
+#index footer{
+	padding-top:240px;;
+}
+
+#class footer{
+	padding-top:40px;;	
 }
 
 footer p{
