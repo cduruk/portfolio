@@ -3,13 +3,18 @@
 #content{
 	width:400px;
 	margin: 0 auto;
-	margin-top:200px;
-	margin-bottom:200px;
+	margin-top:120px;
+	margin-bottom:120px;
 	text-align:center;
 }
+
+.PieMenu{
+	display:none;
+}
 </style> 
+<p class="huge">Pie Menu Demo</p>
 <div id="content"> 
-	<ul id="menu1" class="PieMenu"> 
+	<ul id="menu1" class="PieMenu" style="display:none;"> 
 		<li><a href="#"><img src="/images/piemenu/favicon_digg.ico" alt="" /></a></li> 
 		<li><a href="#"><img src="/images/piemenu/favicon_delicious.ico" alt="" /></a></li> 
 		<li><a href="#"><img src="/images/piemenu/favicon_flickr.ico" alt="" /></a></li> 
@@ -18,8 +23,4 @@
 	</ul> 
 	<a class="MenuStarter" href="#">Share!</a> 
 </div>
-<script>
-jQuery(document).ready(function($) {
-  $('.PieMenu').toggle()
-})
 </script>

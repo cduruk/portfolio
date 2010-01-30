@@ -36,7 +36,8 @@ parameters for every single option.-
     var opts_final = $.meta ? $.extend({}, opts, $this.data()) : opts;
 
     //hide the menu first
-    toggleMenus(opts_final);
+    
+	// if($(opts_final.menuClass)).is(':visible') toggleMenus(opts_final);
     
     //Catch the user click
     $(opts_final.menuStarterClass).click(function(e){
