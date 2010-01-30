@@ -141,7 +141,8 @@ nav li.active{
 	float:left;
 	width:350px;
 	padding-right:40px;
-	border-left:4px solid #4480C9;
+	padding-top:20px;
+	border-top:1px dotted #4480C9;
 }
 
 #index article section.last, #class article section.last{
@@ -172,7 +173,8 @@ nav li.active{
 	float:left;
 	padding-left:5px;
 	width:200px;
-	border-left:2px solid #4480C9;
+	border-top:1px dotted #4480C9;
+	padding-top:20px;
 	margin-bottom:30px;
 }
 
