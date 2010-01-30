@@ -35,7 +35,7 @@ a.small{
 
 .small_desc{
 	padding-left:5px;
-	margin-left:30px;
+	margin-left:-15px;
 	border-left:0px;
 }
 
@@ -160,7 +160,7 @@ nav li.active{
 }
 
 #class article section p{
-	padding-left:10px;
+/*	padding-	left:10px;*/
 	font-size:1em;
 	padding-bottom:10px;
 }
@@ -171,7 +171,6 @@ nav li.active{
 
 #index article aside, #class article aside{
 	float:left;
-	padding-left:5px;
 	width:200px;
 	border-top:1px dotted #4480C9;
 	padding-top:20px;
