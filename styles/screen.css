@@ -154,7 +154,6 @@ nav li.active{
 }
 
 #index article section p {
-	padding-left:10px;
 	font-size: 1.25em;
 	padding-bottom:20px;
 }
@@ -163,6 +162,11 @@ nav li.active{
 /*	padding-	left:10px;*/
 	font-size:1em;
 	padding-bottom:10px;
+}
+
+.no_push{
+	margin:0px;
+	padding:0px;
 }
 
 #index article section p.last, #class article section p.last{
