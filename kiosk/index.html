@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="apple-mobile-web-app-capable" content="yes" /> 
+  
+  <link rel="stylesheet" type="text/css" href="styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="styles/screen.css">
+  <link rel="stylesheet" type="text/css" href="styles/index.css">
+  <title>Health Kiosk v2 :: Index</title>
+</head>
+<body id="index">
+  <div id="top" class="">
+    
+    <div id="messages" class="content">
+      <p>
+        Hello Mary!
+      </p>
+      <p>
+        What would you like to measure?
+      </p>
+      <p class="date">
+        March 23, 2010
+      </p>
+    </div> <!-- end of #messages -->
+    
+    <div id="top_main" class="content">
+      
+      <div id="big_first_line" class="button_line">
+        
+        <div id="big1" class="big_button">
+          <p>Blood Pressure</p>
+        </div>
+        <div id="big2" class="big_button">
+          <p>Weight Scale</p>
+        </div>
+        <div id="big3" class="big_button">
+          <p>Pulse Oxygen</p>
+        </div>
+        <div id="big4" class="big_button">
+          <p>Grip Evaluation</p>
+        </div>
+      </div>
+
+      <div id="big_second_line" class="button_line">
+        <div id="big5" class="big_button">
+          <p>Text Survey</p>
+        </div>
+        <div id="big6" class="big_button">
+          <p>Visual Test</p>
+        </div>
+        <div id="big7" class="big_button">
+          <p>Memory Test</p>
+        </div>
+        <div id="big8" class="big_button">
+          <p>Audio Survey</p>
+        </div>
+      </div>
+      
+    </div> <!-- end #main -->
+  </div> <!-- end #top -->
+  
+  <div id="bottom" class="">
+    <div id="bottom_main" class="content">
+      <div id="small_first_line" class="small_button_line">
+        <div id="small1" class="small_button">
+          <p>
+            Help
+          </p>
+        </div>
+        <div id="small1" class="small_button">
+          <p>
+            History
+          </p>
+        </div>
+        <div id="small1" class="small_button">
+          <p>
+            Messages
+          </p>
+        </div>
+        <div id="small1" class="small_button">
+          <p>
+            Exit
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="scripts/touch.js"><!-- SCRIPT tag must be located right before end of body --></script>
+  <script type="text/javascript">
+  document.getElementById('big3').addEventListener('mousedown', function(){ dosound(); setTimeout("window.location = 'pulse1.html';", 800); },false);
+
+  </script>
+</body>
+</html>

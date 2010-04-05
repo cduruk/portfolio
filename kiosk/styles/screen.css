@@ -1,0 +1,112 @@
+/**** General Stuff ****/
+
+*::selection {
+background: transparent;
+}
+
+body {
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+
+.content {
+  width: 850px;
+  margin: 0 auto;
+}
+
+#top{
+  padding-top:40px;
+  height: 580px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FAFAFA), to(#E9E9E9));
+}
+
+#bottom{
+  height: 200px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FCFCFC), to(#C3C3C3));
+}
+
+p {
+  font-family: "Helvtica", Arial, sans-serif;
+  color:#584E4F;
+  font-weight:bold;
+}
+
+#top #messages{
+  position:relative;
+  height:75px;
+  border-bottom: 1px solid #CCC;
+}
+
+#top #messages p{
+  font-size:2em;
+  padding-bottom:5px;
+}
+
+#top #messages p:nth-child(2){
+  float:left;
+}
+
+#index #top #messages p.date{
+  position:absolute;
+  color: #908283;
+  font-size: 1.25em;
+  right: 0;
+  bottom: -7px;
+}
+
+/*** System Buttons ***/
+
+#bottom #bottom_main #small_first_line{
+  width: 800px;
+  margin: 20px 0px 0px 45px;
+}
+
+#bottom #bottom_main .small_button{
+  position:relative;
+	float:left;
+	
+	width: 120px;
+	height: 120px;
+	margin-right: 80px;
+	
+	border: 2px solid #CCC;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 4px 4px 4px rgba(170, 170, 170, 0.5);
+	background-color: white;
+	
+	text-align:center;
+}
+
+#bottom #bottom_main .small_button:last-child{
+  margin-right:0px;
+}
+
+#bottom #bottom_main .small_button p{
+  position:absolute;
+  bottom:8px;
+  
+  width:100%;
+  
+  font-size: 1.2em;
+}
+
+/*** Big Blue Button ***/
+
+.big_blue_button{	
+	width: 500px;
+	
+	margin:30px auto;
+	
+	border: 1px solid white;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 2px 2px 2px rgba(170, 170, 170, 0.5);
+	background: -webkit-gradient(linear, left top, left bottom, from(#9EE0F5), to(#62C3E8));
+}
+
+.big_blue_button p{
+  	padding: 20px 0px;
+  	width: 100%;
+  	text-align:center;
+  	color:white;
+  	font-size: 1.75em;  
+}

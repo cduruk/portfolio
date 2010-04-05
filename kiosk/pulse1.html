@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="styles/screen.css">
+  <link rel="stylesheet" type="text/css" href="styles/pulse1.css">
+  <title>Health Kiosk v2 :: Pulse 1</title>
+</head>
+<body id="pulse1">
+  <div id="top" class="">
+    
+    <div id="messages" class="content">
+      <p>
+        Pulse
+      </p>
+      <p>
+        Please follow the steps below
+      </p>
+    </div> <!-- end of #messages -->
+    
+    <div id="top_main" class="content">
+      
+      <div id="images" class="content">
+        <img src="images/pulse/inst1.png" alt="">
+        <img src="images/pulse/inst2.png" alt="">
+      </div>
+      
+      <div id="press" class="big_blue_button">
+        <p>
+          Press When You Are Ready
+        </p>
+      </div>
+      
+    </div> <!-- end #main -->
+  </div> <!-- end #top -->
+  
+  <div id="bottom" class="">
+    <div id="bottom_main" class="content">
+      <div id="small_first_line" class="small_button_line">
+        <div id="small1" class="small_button">
+          <p>
+            Help
+          </p>
+        </div>
+        <div id="small1" class="small_button">
+          <p>
+            History
+          </p>
+        </div>
+        <div id="small1" class="small_button">
+          <p>
+            Messages
+          </p>
+        </div>
+        <div id="small1" class="small_button">
+          <p>
+            Exit
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="scripts/touch.js"><!-- SCRIPT tag must be located right before end of body --></script>
+  <script type="text/javascript">
+  document.getElementById('press').addEventListener('mousedown', function(){ dosound(); setTimeout("window.location = 'pulse2.html';", 800); },false);
+
+  </script>
+</body>
+</html>
