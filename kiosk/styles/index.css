@@ -17,7 +17,7 @@
 }
 
 #index #top #top_main .big_button p{
-  position:absolute;
+/*  position:absolute;*/
   bottom:5px;
   margin:3px 20px;
   
@@ -26,6 +26,11 @@
   
   color:white;
   text-shadow: 1px 1px 1px #555;	
+  
+}
+
+#index #top #top_main .big_button img{
+  padding-top: 10px;
 }
 
 #index #top #top_main div.big_button:last-child{
@@ -33,7 +38,7 @@
 }
 
 #index #top #top_main{
-  padding-top:30px;
+  padding-top:60px;
 }
 
 #index #top #top_main #big_first_line, #index #top #top_main #big_second_line{
@@ -41,34 +46,70 @@
   margin: 0 auto;
 }
 
+
 #big1{
-	background: -webkit-gradient(linear, left top, left bottom, from(#FFB3B5), to(#EF525A));
+	background: -webkit-gradient(linear, left top, left bottom, from(#EF7D81), to(#DC1F2F));
+}
+
+#index #top #top_main #big1 img{
+  padding-top: 20px;
 }
 
 #big2{
-	background: -webkit-gradient(linear, left top, left bottom, from(#AFBFF8), to(#5B7ACC));
+	background: -webkit-gradient(linear, left top, left bottom, from(#8987D0), to(#5825BC));
+}
+
+#index #top #top_main #big2 img{
+  padding-top: 35px;
+}
+
+#index #top #top_main #big2 p{
+  padding-top: 20px;
 }
 
 #big3{
-	background: -webkit-gradient(linear, left top, left bottom, from(#B6E7F3), to(#61C3E8));
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFBB52), to(#E76D00));
+}
+
+
+#index #top #top_main #big3 img{
+  padding-top: 25px;
 }
 
 #big4{
-	background: -webkit-gradient(linear, left top, left bottom, from(#FFD580), to(#FF9300));
+	background: -webkit-gradient(linear, left top, left bottom, from(#5DC0A5), to(#008271));
+}
+
+
+#index #top #top_main #big4 img{
+  padding-top: 20px;
 }
 
 #big5{
-	background: -webkit-gradient(linear, left top, left bottom, from(#94EA90), to(#4BC050));
+	background: -webkit-gradient(linear, left top, left bottom, from(#7FC8FA), to(#3685DF));
+	-webkit-box-shadow: 7px 6px 6px rgba(255, 134, 1, 0.5);
+}
+
+#big5 img{
+  margin-top: -10px;
 }
 
 #big6{
-	background: -webkit-gradient(linear, left top, left bottom, from(#E49AD3), to(#C545AC));
+	background: -webkit-gradient(linear, left top, left bottom, from(#E3C342), to(#AA7E00));
+}
+
+#index #top #top_main #big6 img{
+  padding-top: 20px;
 }
 
 #big7{
-	background: -webkit-gradient(linear, left top, left bottom, from(#F5F259), to(#E5CA00));
+	background: -webkit-gradient(linear, left top, left bottom, from(#69C568), to(#108B22));
 }
 
 #big8{
-	background: -webkit-gradient(linear, left top, left bottom, from(#89E8CD), to(#00B591));
+	background: -webkit-gradient(linear, left top, left bottom, from(#E274CB), to(#B9009B));
+}
+
+#index #top #top_main #big8 img{
+  padding-top: 20px;
 }
