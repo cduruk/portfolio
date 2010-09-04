@@ -1,6 +1,9 @@
 default_run_options[:pty] = true
+ssh_options[:forward_agent] = true
+
 set :application, "portfolio"
 set :scm, :git
+set :user, "cduruk"
 set :repository,  "git@github.com:cduruk/portfolio.git"
 
 role :web, "linode"                          # Your HTTP server, Apache/etc
