@@ -12,10 +12,10 @@ role :app, "linode"                          # This may be the same as your `Web
 set :deploy_via, :export
 set :shared_children, []
 
-if ENV["DURUK_ENV"] == 'production'
-  set :deploy_to, "/srv/www/duruk.net/public_html"
-else
+if ENV["DURUK_ENV"] == 'beta'
   set :deploy_to, "/srv/www/beta.duruk.net/public_html"
+else
+  set :deploy_to, "/srv/www/portfolio.duruk.net/public_html"
 end
 
 # If you are using Passenger mod_rails uncomment this:
